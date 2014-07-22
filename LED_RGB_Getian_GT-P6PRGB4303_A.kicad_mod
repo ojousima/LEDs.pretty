@@ -1,4 +1,4 @@
-(module LED_RGB_Getian_GT-P6PRGB4303_A (layer F.Cu) (tedit 53B6C325)
+(module LED_RGB_Getian_GT-P6PRGB4303_A (layer F.Cu)
   (descr https://www.gme.sk/img/cache/doc/518/177/vykonova-led-getian-gt-p6prgb4303-datasheet-1.pdf)
   (tags "LED RGB ")
   (fp_text reference D101 (at 0 0) (layer Cmts.User)
@@ -7,6 +7,8 @@
   (fp_text value gt-p6prgb4303 (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
+  (fp_line (start -6.5 -3.5) (end -5.5 -3.5) (layer F.SilkS) (width 0.15))
+  (fp_line (start -6 -3) (end -6 -4) (layer F.SilkS) (width 0.15))
   (fp_line (start -8.3 -3.8) (end -8.3 4.8) (layer Cmts.User) (width 0.15))
   (fp_line (start -7.3 -4.8) (end 8.3 -4.8) (layer Cmts.User) (width 0.15))
   (fp_line (start -7.3 -4.8) (end -8.3 -3.8) (layer Cmts.User) (width 0.15))
